@@ -1,0 +1,52 @@
+:root {
+    --primario: #9C27B0;
+    --primario: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(223. 287, 2);
+    --blanco: #FFF;
+    --negro: #000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+html {
+    font-size:62.5%; /*Es para ajustar los rem */
+    box-sizing: border-box; /* Hack BOX Model */
+}
+*, *:before, *:after {
+    box-sizing: inherit;    
+}
+
+/* Globales */
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem; /* 1rem = 10px */
+    line-height: 1.5;
+}
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
+}
+h1{
+  font-size: 4rem;  
+}
+h2{
+    font-size: 3.3;
+}
+h3{
+    font-size: 2.4rem;
+}
