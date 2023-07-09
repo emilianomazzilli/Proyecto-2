@@ -154,3 +154,8 @@ h3{
         grid-column: 2 / 4;
     }
 }
+
+/* Nosotros */
+@media (min-width: 768px){
+    
+}
