@@ -130,3 +130,27 @@ h3{
     font-size: 2.2rem;
     color: var(--secundario);
 }
+
+/* Grafico */
+.grafico{
+    min-height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grafico--camisa{
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    background-image: url(../img/grafico1.jpg);
+}
+.grafico--node{
+    background-image: url(../img/grafico2.jpg);
+    grid-row: 1 / 3;
+    grid-column: 8 / 9;
+}
+
+@media (min-width: 768px){
+    .grafico--node{
+        grid-row: 5 / 6;
+        grid-column: 2 / 4;
+    }
+}
