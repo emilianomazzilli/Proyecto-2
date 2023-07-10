@@ -124,8 +124,8 @@ h3{
     text-align: center;
 }
 
-/* Grafico */
-.grafico{
+/** Graficos **/
+.grafico {
     min-height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,13 +135,13 @@ h3{
     grid-row: 2 / 3;
     background-image: url(../img/grafico1.jpg);
 }
-.grafico--node{
+.grafico--node {
     background-image: url(../img/grafico2.jpg);
-    grid-column: 8 / 9;
+    grid-row: 8 / 9;
 }
-
-@media (min-width: 768px){
-    .grafico--node{
+ 
+@media (min-width: 768px) {
+    .grafico--node {
         grid-row: 5 / 6;
         grid-column: 2 / 4;
     }
