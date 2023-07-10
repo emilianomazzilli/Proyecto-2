@@ -199,6 +199,7 @@ h3{
     gap: 2rem;
 }
 .formulario__campo {
+    width: 100%;
    border: 1rem solid var(--primarioOscuro);
    background-color: transparent;
    color: var(--blanco);
